@@ -28,3 +28,72 @@
 }
 
 /* Esercizio 4 */
+.ex-4-square{
+    opacity: 1;
+    transition: opacity .6s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* Esercizio 5 */
+
+.ex-5-square{
+    transition:transform .6s;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(.5);
+}
+
+/* Esercizio 6 */
+
+.ex-6-img{
+    filter: none;
+    transition: filter .8s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(90%);
+}
+
+/* Esercizio 7 */
+
+.ex-7-img{
+    filter: none;
+    transition: filter ease-in-out 1s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(90%) sepia(50%) ;
+}
+
+/* Esercizio 8 */
+
+.ex-8-img{
+    filter: none;
+    transition: filter ease-in-out 1s, border-radius ease-in-out 1s;
+}
+
+.ex-8-img:hover{
+    filter: sepia(70%) grayscale(40%) ;
+    border-radius: 20px;
+}
+
+/* Esercizio 9 */
+
+.ex-9-img{
+    filter: none;
+    transition: filter ease-in-out 1s, border-radius ease-in-out 1s, transform ease-in-out 1s ;
+}
+
+.ex-9-img:hover{
+    filter: sepia(70%) grayscale(40%) ;
+    border-radius: 20px;
+    transform: scale(1.5);
+}
