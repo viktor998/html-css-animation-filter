@@ -97,3 +97,32 @@
     border-radius: 20px;
     transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+
+.ex-10-icon{
+    animation: rotate360 1.2s linear infinite;
+}
+
+@keyframes rotate360{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation: rotate_2_360 1.6s linear;
+}
+
+@keyframes rotate_2_360{
+    0%{
+        transform: rotate(0);
+    }
+
+    80%{
+        transform: rotate(315deg);
+    }
+}
+
